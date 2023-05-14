@@ -11,7 +11,7 @@ public class ConfigBean
 	@Bean
 	public Entity entity()
 	{
-		return new Entity();
+		return new Entity(101,23);
 	}
 
 }

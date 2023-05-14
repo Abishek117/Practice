@@ -1,5 +1,6 @@
 package com.practice.main.entity;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 //@Component
@@ -13,6 +14,14 @@ public class Entity
 		// TODO Auto-generated constructor stub
 	}
 	
+	
+	public Entity(int id, int age) {
+		super();
+		this.id = id;
+		this.age = age;
+	}
+
+
 	public int getId() {
 		return id;
 	}
